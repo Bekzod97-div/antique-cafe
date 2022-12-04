@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#bg {
+    background-image: url(./img/antique-cafe-bg-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+
+}
+
+nav {
+    width: 100%;
+    height: 65px;
+    background-color: rgba(0, 0, 0, 0.696);
+    line-height: 65px;
+    position: fixed;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 150px;
+}
+
+nav ul li {
+list-style: none;
+display: inline-block;
+transition: 0.7s all;
+}
+
+nav ul li:hover, nav ul li a.current {
+    background-color: rgb(185, 115, 25);
+    text-decoration: underline;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#fff;
+    padding: 25px;
+    font-size: 18px;
+}
+
+#info-cafe {
+    background-color: rgba(0, 0, 0, 0.697);
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 160px;
+    padding: 40px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+#info-cafe .logo {
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+#info-cafe p {
+    color:  rgb(185, 115, 25);
+    font-size: 20px;
+}
+
+#info-box {
+    background-color: rgba(0, 0, 0, 0.697);
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 30px;
+    border: 1px solid black;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+#info-box p {
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 30px;
+}
+.link {
+    color: rgb(255, 196, 0);
+}
+#info-box .link:hover {
+    color: skyblue;
+}
+#btn {
+    background-color: rgba(0, 0, 0, 0.697);
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #000;
+    margin-bottom: 30px;
+    padding: 35px;
+    border-radius: 15px;
+
+}
+ #btn .push  {
+     background-color: transparent;
+     background-repeat: no-repeat;
+     border: none;
+    font-size: 20px;
+ }
+
+ #btn a {
+     color: rgb(176, 101, 4);
+     word-spacing: 5px;
+ }
+#btn .push a:hover {
+    color: #fff;
+}
+
+/* Menu section */
+#bg2 {
+    background-image: url(./img/antique-cafe-bg-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+}
+
+.heading {
+    width: 22%;
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    margin-top: 100px;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.menu-page {
+    display: flex;
+    align-items: center;
+}
+.menu-page > img {
+    width: 90px;
+}
+#left-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    margin: 0 auto;
+    max-width: 520px;
+    background-color: rgb(63, 33, 11);
+    overflow: auto;
+}
+#right-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    margin: 0 auto;
+    max-width: 520px;
+    background-color: rgb(63, 33, 11);
+    overflow: auto;
+}
+ul [class="list-name"] {
+    margin-top: 15px;
+}
+
+/* about page */
+#bg3 {
+    background-image: url(./img/antique-cafe-bg-03.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: auto;
+
+}
+.contentbox {
+    float: right;
+    background-color: #fff;
+    opacity: 80%;
+    width: 400px;
+    height: 400px;
+    margin-top: 150px;
+    margin-left: 550px;
+    margin-right: 300px;
+    border-radius: 12px;
+    text-align: center;
+
+}
+#btn3 {
+    float: right;
+    margin-top: 20px;
+    margin-right: 500px;
+    background-color: rgb(11, 113, 96);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+#btn3 .push3 {
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    padding: 0 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: cursive;
+
+}
+#btn3 a {
+    color: #fff;
+    word-spacing: 10px;
+    text-decoration: none;
+}
+#btn3:hover {
+background-color:rgb(63, 131, 120);
+}
+.header3 {
+    padding-top: 15px;
+    padding-bottom: 35px;
+    color: rgb(11, 113, 96);
+    font-size: 40px;
+}
+.contentbox p {
+    font-size: 20px;
+    font-family: cursive;
+    padding: 0 20px;
+    word-spacing: 6px;
+    line-height: 30px;
+}
+
+/* contact part */
+#bg4 {
+    background-image: url(./img/antique-cafe-bg-04.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+}
+#infos {
+    float: left;
+    width: 35%;
+    margin: auto;
+    background-color: #fff;
+    opacity: 80%;
+    height: 500px;
+    margin-top: 80px;
+    margin-left: 200px;
+    border-radius: 12px;
+    margin-bottom: 100px;
+}
+#infos h1 {
+    font-size: 35px;
+    padding-top: 40px;
+    padding-left: 35px;
+    padding-bottom: 35px;
+    font-family: Arial;
+    font-weight: lighter;
+    color:rgb(11, 113, 96);
+}
+#infos p {
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 18px;
+    padding-bottom: 15px;
+    font-weight: lighter;
+    font-family: sans-serif;
+
+}
+#infos .main-text {
+    padding-bottom: 30px;
+    line-height: 35px;
+}
+#infos a {
+    color:rgb(11, 113, 96);
+    font-size: 18px;
+    font-family: sans-serif;
+}
+#btn4 {
+    text-align: center;
+    background-color:rgb(11, 113, 96);
+    width: 50%;
+    margin: auto;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+#btn4 .push4 {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding:20px;
+    border: none;
+
+}
+#btn4 .push4 a {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: sans-serif;
+    word-spacing: 8px;
+}
+#btn4 :hover {
+    background-color:rgb(60, 140, 126);
+    border-radius: 10px;
+}
+
+#infos2 {
+    float: right;
+    width: 35%;
+    margin: auto;
+    background-color: #000;
+    opacity: 70%;
+    height: 500px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    border-radius: 12px;
+    padding: 0 35px;
+    padding-top: 60px;
+}
+ #your-info .form-group {
+    margin-bottom: 20px;
+    color: #fff;
+}
+#your-info label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+    font-size: 23px;
+}
+
+#your-info .form-control {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid rgb(218, 165, 32);
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}
+#your-info .form-text {
+    display: block;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid rgb(218, 165, 32);
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+}
+
+#btn5 {
+    float: right;
+    margin-top: 10px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+
+}
+#btn5 a {
+    font-size: 23px;
+    color: #fff;
+    text-decoration: none;
+}
+#btn5 a:hover {
+color:rgb(218, 165, 32); ;
+}
