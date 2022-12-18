@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <title>Antique Cafe</title>
 </head>
@@ -32,68 +39,71 @@
             <div class="menu-page">
                 <section id="left-menu">
                     <!--Left-menu section-->
-                    <ul>
-                        <li><img class="menu-img" src="img/menu-item-1.jpg" alt="cappucino photo" srcset="img/menu-item-1.jpg 1x, img/menu-item-1(1).jpg 2x"></li>
-                        <li><img class="menu-img" src="img/menu-item-2.jpg" alt="americano photo" srcset="img/menu-item-2.jpg 1x, img/menu-item-2(1).jpg 2x"></li>
-                        <li><img class="menu-img" src="img/menu-item-3.jpg" alt="latte photo" srcset="img/menu-item-3.jpg 1x, img/menu-item-3(1).jpg 2x"></li>
-                        <li><img class="menu-img" src="img/menu-item-4.jpg" alt="espresso photo" srcset="img/menu-item-4.jpg 1x,img/menu-item-4(1).jpg 2x"></li>
-                    </ul>
-                <ul class="list-name">
-                     <li>
-                        <h3 class="item-name">Hot Cappucino</h3>
-                        <p class="item-price">S $8.50 L $10.50</p>
-                     </li>
-                     <li>
-                         <h3 class="item-name">Hot Americano</h3>
-                         <p class="item-price">S $9.50 L $12.50</p>
-                     </li>
-                     <li>
-                         <h3 class="item-name">Hot Latte</h3>
-                         <p class="item-price">M $11.75 L $14.75</p>
-                     </li>
-                     <li>
-                         <h3 class="item-name">Hot Espresso</h3>
-                         <p class="item-price">Size M $11.75 L $14.75</p>
-                     </li>
-                </ul>
+                    <div class="menu-item">
+                        <img class="menu-img" src="img/menu-item-1.jpg" alt="cappucino photo" srcset="img/menu-item-1.jpg 1x, img/menu-item-1(1).jpg 2x">
+                        <div class="menu-info-box">
+                            <h3 class="item-name">Hot Cappucino</h3>
+                            <p class="item-price">S $8.50 <br> <br> L $10.50</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img class="menu-img" src="img/menu-item-2.jpg" alt="americano photo" srcset="img/menu-item-2.jpg 1x, img/menu-item-2(1).jpg 2x">
+                        <div class="menu-info-box">
+                            <h3 class="item-name">Hot Americano</h3>
+                            <p class="item-price">S $9.50 <br> <br> L $12.50</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img class="menu-img" src="img/menu-item-3.jpg" alt="latte photo" srcset="img/menu-item-3.jpg 1x, img/menu-item-3(1).jpg 2x">
+                        <div class="menu-info-box">
+                            <h3 class="item-name">Hot Latte</h3>
+                            <p class="item-price">M $11.75 <br> <br> L $14.75</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img class="menu-img" src="img/menu-item-4.jpg" alt="espresso photo" srcset="img/menu-item-4.jpg 1x,img/menu-item-4(1).jpg 2x">
+                        <div class="menu-info-box">
+                            <h3 class="item-name">Hot Espresso</h3>
+                             <p class="item-price">Size M $11.75 <br> <br> L $14.75</p>
+                        </div>
+                    </div>
                         </section>
 
                         <!--Right-menu section-->
 
                         <section id="right-menu">
-                <ul>
-                     <li>
-                       <img class="menu-img2" src="img/menu-item-5.jpg" alt="ice cappucino photo" srcset="img/menu-item-5.jpg 1x, img/menu-item-5(1).jpg 2x">
-                     </li>
-                     <li>
-                        <img class="menu-img2" src="img/menu-item-6.jpg" alt="iced Americano photo" srcset="img/menu-item-6.jpg 1x, img/menu-item-6(1).jpg 2x">
-                     </li>
-                     <li>
-                        <img class="menu-img2" src="img/menu-item-7.jpg" alt="iced milky latte photo" srcset="img/menu-item-7.jpg 1x, img/menu-item-7(1).jpg 2x">
-                     </li>
-                     <li>
-                        <img class="menu-img2" src="img/menu-item-8 (1).jpg" alt="iced espresso photo" srcset="img/menu-item-8 (1).jpg 1x, img/menu-item-8 (2).jpg 2x">
-                     </li>
-                </ul>
+                            <div class="menu-item right">
+                                <div class="menu-info-box info-right">
+                                    <h3 class="item-name">Iced Cappucino</h3>
+                                    <p class="item-price">S $8.50 <br> <br> L $10.50</p>
+                                </div>
+                                 <img class="menu-img" src="img/menu-item-5.jpg" alt="ice cappucino photo" srcset="img/menu-item-5.jpg 1x, img/menu-item-5(1).jpg 2x">
+                            </div>
+                            <div class="menu-item right">
+                                <div class="menu-info-box info-right">
+                                    <h3 class="item-name">Iced Americano</h3>
+                                    <p class="item-price">S $9.50 <br> <br> L $12.50</p>
+                                </div>
+                                <img class="menu-img" src="img/menu-item-6.jpg" alt="iced Americano photo" srcset="img/menu-item-6.jpg 1x, img/menu-item-6(1).jpg 2x">
+                            </div>
+                            <div class="menu-item right">
+                                <div class="menu-info-box info-right">
+                                    <h3 class="item-name">Iced Milky Latte </h3>
+                                    <p class="item-price">M $11.75 <br> <br> L $14.75</p>
+                                </div>
+                                <img class="menu-img" src="img/menu-item-7.jpg" alt="iced milky latte" srcset="img/menu-item-7.jpg 1x, img/menu-item-7(1).jpg 2x">
 
-                <ul>
-                    <li>
-                        <h3 class="item-name2">Iced Cappucino</h3>
-                        <p class="item-price2">S $8.50 L $10.50</p>
-                    </li>
-                    <li>
-                        <h3 class="item-name2">Iced Americano</h3>
-                        <p class="item-price2">S $9.50 L $12.50</p>
-                    </li>
-                    <li>
-                        <h3 class="item-name2">Iced Milky Latte </h3>
-                        <p class="item-price2">M $11.75 L $14.75</p>
-                    </li>
-                    <li>
-                        <h3 class="item-name2">Iced Espresso</h3>
-                        <p class="item-price2">Size M $11.75 L $14.75</p>
-                    </li>
-                </ul>
+                            </div>
+                            <div class="menu-item right">
+                                <div class="menu-info-box info-right">
+                                    <h3 class="item-name space">Iced Espresso</h3>
+                                    <p class="item-price">Size M $11.75 <br> <br> L $14.75</p>
+                                </div>
+                                <img class="menu-img" src="img/menu-item-8 (1).jpg" alt="iced espresso photo" srcset="img/menu-item-8 (1).jpg 1x, img/menu-item-8 (2).jpg 2x">
+
+                            </div>
+
+
                         </section>
             </div>
      </main>
